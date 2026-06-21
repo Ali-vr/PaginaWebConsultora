@@ -12,11 +12,12 @@
     "migrate": "php scripts/migrate.php",
     "serve": "php -S localhost:8000 -t public"
   },
-  "autoload": {
-    "files": [
-      "./src/utils/html.php",
-      "./src/utils/view.php"
-    ]
-  },
+"autoload": {
+  "files": [
+    "./src/utils/html.php",
+    "./src/utils/view.php",
+    "./src/utils/carrito.php"
+  ]
+},
   "license": "MIT"
 }

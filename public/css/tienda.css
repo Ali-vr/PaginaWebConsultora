@@ -1,0 +1,35 @@
+.paso-circulo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--madera-clara);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--madera-media);
+  background-color: #fff;
+}
+
+.paso-activo {
+  background-color: var(--madera-media);
+  border-color: var(--madera-media);
+  color: var(--crema);
+}
+
+.paso-linea {
+  width: 40px;
+  height: 2px;
+  background-color: var(--madera-clara);
+}
+
+.metodo-pago-card {
+  background-color: #fff;
+  border: 1px solid var(--madera-clara);
+  cursor: pointer;
+}
+
+.metodo-pago-card:has(input:checked) {
+  border-color: var(--madera-media);
+  outline: 2px solid var(--madera-media);
+}

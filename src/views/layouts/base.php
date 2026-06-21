@@ -13,7 +13,10 @@
     <link href="/css/tienda.css" rel="stylesheet" />
   </head>
   <body>
-    <?= $this->fetch("partials/navbar.php", ["categorias" => $categorias]) ?>
+    <?= $this->fetch("partials/navbar.php", [
+      "categorias" => $categorias,
+      "cantidadCarrito" => $cantidadCarrito,
+    ]) ?>
     <?= $this->fetch("partials/subnav.php", [
       "categorias" => $categorias,
       "categoriaActiva" => $categoriaSlug ?? null,
