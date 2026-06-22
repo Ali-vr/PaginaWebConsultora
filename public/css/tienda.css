@@ -1,35 +1,42 @@
-.paso-circulo {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 2px solid var(--madera-clara);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  color: var(--madera-media);
-  background-color: #fff;
+.tarjeta-preview {
+  perspective: 1000px;
 }
 
-.paso-activo {
-  background-color: var(--madera-media);
-  border-color: var(--madera-media);
+.tarjeta-frente {
+  background: linear-gradient(135deg, var(--madera-oscura), var(--madera-media));
   color: var(--crema);
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Courier New", monospace;
+  box-shadow: 0 8px 24px rgba(58, 42, 30, 0.3);
 }
 
-.paso-linea {
-  width: 40px;
-  height: 2px;
-  background-color: var(--madera-clara);
+.tarjeta-chip {
+  width: 36px;
+  height: 26px;
+  background: var(--madera-clara);
+  border-radius: 4px;
+  margin-bottom: 1rem;
 }
 
-.metodo-pago-card {
-  background-color: #fff;
-  border: 1px solid var(--madera-clara);
-  cursor: pointer;
+.tarjeta-numero {
+  font-size: 1.15rem;
+  letter-spacing: 3px;
+  margin-bottom: 1rem;
 }
 
-.metodo-pago-card:has(input:checked) {
-  border-color: var(--madera-media);
-  outline: 2px solid var(--madera-media);
+.tarjeta-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  opacity: 0.7;
+  letter-spacing: 1px;
+}
+
+.tarjeta-valor {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
 }
