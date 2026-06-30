@@ -1,5 +1,8 @@
 <?php
-
-$app = require __DIR__ . "/../src/bootstrap.php";
-
+ 
+declare(strict_types=1);
+ 
+$app = require __DIR__ . '/../src/bootstrap.php';
+ 
 $app->run();
+ 
