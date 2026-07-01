@@ -20,7 +20,7 @@
 
 **Quienes** necesitan una solución tecnológica confiable para automatizar procesos, ofrecer servicios en línea y aumentar su alcance mediante herramientas digitales.
 
-**{Nombre del Proyecto}** es una consultora de desarrollo de software especializada en la creación de páginas web, aplicaciones web y sistemas personalizados.
+**{FENIX CODE(CONSULTORA)}** es una consultora de desarrollo de software especializada en la creación de páginas web, aplicaciones web y sistemas personalizados.
 
 **Que** brinda soluciones modernas, escalables y adaptadas a cada cliente, mejorando la eficiencia, la comunicación y la imagen profesional de su negocio.
 
