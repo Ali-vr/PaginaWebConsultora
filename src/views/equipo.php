@@ -2,41 +2,41 @@
 
 $equipo = [
     [
-        'nombre'   => 'Ali Rodríguez',
+        'nombre'   => 'Ali Vergara',
         'rol'      => 'Líder de Proyecto & Dev Full Stack',
         'desc'     => 'Responsable de arquitectura y coordinación. Especializada en PHP con Slim Framework, diseño de bases de datos y gestión ágil con Scrum.',
-        'skills'   => ['PHP', 'Slim', 'MySQL', 'Scrum'],
+        'skills'   => ['PHP', 'Slim', 'MySQL', 'Scrum','JS','CSS','Bootstrap'],
         'github'   => 'Ali-vr',
-        'linkedin' => '#',
+        'linkedin' => 'ali-vergara-317b41342/',
         'inicial'  => 'A',
         'color'    => '#FF6B35',
     ],
     [
-        'nombre'   => 'Integrante Dos',
+        'nombre'   => 'Santiago Luna',
         'rol'      => 'Frontend Developer',
         'desc'     => 'Especialista en interfaces responsivas y experiencia de usuario. Domina Bootstrap 5, JavaScript y diseño accesible.',
         'skills'   => ['Bootstrap', 'JS', 'CSS', 'Figma'],
-        'github'   => 'username',
+        'github'   => 'lunape2',
         'linkedin' => '#',
         'inicial'  => 'D',
         'color'    => '#4F8EF7',
     ],
     [
-        'nombre'   => 'Integrante Tres',
+        'nombre'   => 'Axel Figueredo',
         'rol'      => 'Backend Developer',
-        'desc'     => 'Desarrollador backend con foco en APIs REST, optimización de consultas SQL y seguridad en aplicaciones web PHP.',
+        'desc'     => 'Encargado de diseñar la interfaz de la página/aplicación desde su concepción hasta su realización usando herramientas como bootstrap',
         'skills'   => ['PHP', 'MySQL', 'REST', 'Git'],
-        'github'   => 'username',
+        'github'   => 'AxelFigueredo',
         'linkedin' => '#',
         'inicial'  => 'T',
         'color'    => '#A259FF',
     ],
     [
-        'nombre'   => 'Integrante Cuatro',
+        'nombre'   => 'Dylan Giacomelly',
         'rol'      => 'UX/UI Designer',
-        'desc'     => 'Diseñador de experiencias digitales. Transforma requerimientos en interfaces limpias, funcionales y visualmente impactantes.',
-        'skills'   => ['Figma', 'UX', 'Prototipado', 'CSS'],
-        'github'   => 'username',
+        'desc'     => 'Responsable de la gestión del backlog y la planificación del producto. Actúa como el nexo principal entre el cliente y el equipo de desarrollo, optimizando la comunicación para garantizar una solución que resuelva eficazmente las necesidades del proyecto.',
+        'skills'   => [ 'Product Owner','Nexo', 'Cliente-Equipo','Agile','Gestión'],
+        'github'   => 'GiacoD-07',
         'linkedin' => '#',
         'inicial'  => 'C',
         'color'    => '#0ECFB1',
@@ -77,7 +77,7 @@ $equipo = [
                     </div>
                     <div class="d-flex gap-3 mt-auto">
                         <a href="https://github.com/<?= htmlspecialchars($miembro['github']) ?>" target="_blank" class="fc-social-link" title="GitHub"><i class="bi bi-github"></i></a>
-                        <a href="<?= htmlspecialchars($miembro['linkedin']) ?>" target="_blank" class="fc-social-link" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/<?= htmlspecialchars($miembro['linkedin']) ?>" target="_blank" class="fc-social-link" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
                     </div>
                 </div>
             </div>

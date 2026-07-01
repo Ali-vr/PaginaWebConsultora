@@ -84,7 +84,7 @@ $app->post("/contacto", function ($request, $response) use ($renderer) {
   } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $error = "El email ingresado no es válido.";
   } else {
-    $exito = "¡Mensaje recibido! Te contactaremos en menos de 24 horas.";
+    $exito = "¡Mensaje recibido! Te contactaremos lo antes posible.";
   }
 
   return $renderer->render($response, "contacto.php", [

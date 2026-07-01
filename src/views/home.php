@@ -30,7 +30,7 @@
                         <div class="fc-code-line">&nbsp;&nbsp;<span class="fc-c-key">cliente</span>: <span class="fc-c-str">"Tu empresa"</span>,</div>
                         <div class="fc-code-line">&nbsp;&nbsp;<span class="fc-c-key">tecnología</span>: <span class="fc-c-str">"PHP + Slim"</span>,</div>
                         <div class="fc-code-line">&nbsp;&nbsp;<span class="fc-c-key">diseño</span>: <span class="fc-c-str">"Bootstrap 5"</span>,</div>
-                        <div class="fc-code-line">&nbsp;&nbsp;<span class="fc-c-key">resultado</span>: <span class="fc-c-str">"🚀 Lanzado"</span></div>
+                        <div class="fc-code-line">&nbsp;&nbsp;<span class="fc-c-key">resultado</span>: <span class="fc-c-str">" Lanzado"</span></div>
                         <div class="fc-code-line">};</div>
                         <div class="fc-code-cursor"></div>
                     </div>
